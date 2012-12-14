@@ -15,6 +15,3 @@ __title__ = 'implicit_session'
 __version__ = '1.0'
 __author__ = 'Alexis Tabary'
 __license__ = 'Apache 2.0'
-
-
-from .decorators import implicit_login

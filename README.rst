@@ -17,7 +17,7 @@ Usage
 
 .. code-block:: pycon
 
-    from implicit_session import implicit_login
+    from implicit_session.decorators import implicit_login
 
     @implicit_login
     def my_view(request):
