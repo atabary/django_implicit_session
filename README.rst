@@ -4,6 +4,7 @@ django_implicit_session
 Provides a decorator to automatically login anonymous users accessing the specified view in Django.
 
 It is useful if you need you want to make a "StackOverflow-like" login process where users:
+
 - can start using your service with a persistent session without having registered yet,
 - can then convert this implicit session in an explicit one with proper credentials.
 
